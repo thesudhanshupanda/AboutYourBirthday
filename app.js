@@ -13,7 +13,7 @@ function checkBirthdate(){
         compareValues(sum,luckyNumber.value);
     }
     else{
-         message.innerText = " please enter a both the fields"
+         message.innerText = " please enter inputs in both the fields"
     }
 
 }
