@@ -7,6 +7,7 @@
 
 body{
     font-family: sans-serif;
+    margin: auto;
     background-color: var(--primanycolor);
     color: black;
 
@@ -15,7 +16,7 @@ body{
 .container{
     text-align: center;
     margin: auto;
-    max-width : 80%;
+    /* max-width : 50%; */
     margin-top: 1rem;
 }
 
@@ -46,9 +47,11 @@ body{
   
 footer {
     margin-top: 15rem;
-    width: 100%;
+    
+    /* width: 50%; */
     text-align: center;
-    padding:1rem;
+    padding:2rem;
+    background-color: var(--secondarycolor);
     /* margin-top: 1rem; */
 }
 .footer .heading{
